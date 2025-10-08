@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#navClick {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#klanTxt {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bgBildeFor {
+    position: absolute;
+    border: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+#klanHist {
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#histTxt {
+    margin-left: 25px;
+}
