@@ -2,18 +2,36 @@ body {
     margin: 0;
 }
 nav {
-    background-color: red;
+    background-color: #8f2323;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-#navClick {
+#navDiv {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.navClick {
+    text-decoration: none;
+    font-family: 'Almendra SC';font-size: 22px;
+    font-size: 30px;
+    color: #d8d8d8;
+    display: inline-block;
+}
+.navClick::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #d8d8d8;
+    transition: 300ms;
+}
+.navClick:hover::after {
+    width: 100%;
 }
 #klanTxt {
     margin-top: 50px;
@@ -23,16 +41,44 @@ nav {
 }
 #bgBildeFor {
     position: absolute;
+    opacity: 0.5;
     border: 0;
     z-index: -1;
     height: 100%;
     width: 100%;
 }
 #klanHist {
-    margin-top: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     justify-content: space-between;
 }
 #histTxt {
+    overflow-wrap: break-word;
     margin-left: 25px;
+    width: 500px;
+}
+footer {
+    height: 150px;
+    background-color: #8f2323;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerDiv {
+    margin-left: 200px;
+    text-decoration: none;
+    font-family: 'Almendra SC';font-size: 22px;
+    font-size: 20px;
+    color: #d8d8d8;
+    margin-bottom: 5px;
+}
+#aksjonArt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    margin: 110px;
 }
