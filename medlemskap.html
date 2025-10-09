@@ -9,7 +9,9 @@
 </head>
 <body>
     <nav>
-        <img src="" alt="Logo">
+        <a href="index.html">
+            <img class="logo" src="bilder/logoDanmark.png" alt="Logo">
+        </a>
         <div id="navDiv">
             <a class="navClick" href="aksjoner.html">
                 Our Activities
@@ -19,15 +21,30 @@
             </a>
         </div>
     </nav>
-    <section>
-        
+    <img class="bgBildeFor" src="https://www.lifeinnorway.net/wp-content/uploads/2020/05/viking-action-scene.jpg" alt="sfas">
+    <section id="medlemSect">
+        <article id="medlemskap">
+            <h1>Bli Medlem</h1>
+            <div id="form">
+                <label for="brukerSk">Skriv Brukernavnet Ditt:</label>
+                <input type="text" id="brukerSk">
+                <label for="fullnavnSk">Skriv Det Fulle navnet Ditt:</label>
+                <input type="text" id="fullnavnSk" required>
+                <label for="mailSk">Skriv Email-Adressen Din:</label>
+                <input type="email" name="mailSk" id="mailSk" required>
+                <label for="datoSk">Velg Fødselsdatoen Din:</label>
+                <input type="date" name="datoSk" id="datoSk" required>
+            </div>
+            <button id="submit">submit</button>
+        </article>
     </section>
     <footer>
-        <img src="" alt="logo">
+        <img class="logo" src="bilder/logoDanmark.png" alt="logo">
         <div style="display: flex; flex-direction: column;">
             <a class="footerDiv" href="aksjoner.html">Våre Aksjoner</a>
             <a class="footerDiv" href="medlemskap.html">Bli Medlem</a>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

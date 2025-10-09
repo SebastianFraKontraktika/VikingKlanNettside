@@ -8,6 +8,10 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+}
+h1 {
+    font-family: 'Almendra SC';font-size: 50px;
 }
 #navDiv {
     width: 80%;
@@ -17,8 +21,7 @@ nav {
 }
 .navClick {
     text-decoration: none;
-    font-family: 'Almendra SC';font-size: 22px;
-    font-size: 30px;
+    font-family: 'Almendra SC';font-size: 30px;
     color: #d8d8d8;
     display: inline-block;
 }
@@ -39,7 +42,7 @@ nav {
     flex-direction: column;
     align-items: center;
 }
-#bgBildeFor {
+.bgBildeFor {
     position: absolute;
     opacity: 0.5;
     border: 0;
@@ -79,6 +82,41 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     overflow-wrap: break-word;
     margin: 110px;
+}
+#medlemskap {
+    background-color: #d8d8d8;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    width: 250px;
+    border-radius: 25px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#medlemSect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    height: 100px;
+}
+.aksjonBilde {
+    height: 200px;
+    width: 200px;
+}
+#bildeDiv {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
 }
