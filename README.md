@@ -7,6 +7,8 @@ Dette prosjektet handler om å lage en viking klan, med utgangspunkt i visualise
 
 dette prosjketet er mulig på grunn av Erasmus+ og samarbeides av en gruppe av Danske og Norske Elever.
 
+Jeg brukte bare 1,5 dag på den, så derfor er den så ræva
+
 # Funkjsoner
 
 På grunn av dårlig tid så skal nettsiden være relativ enkel og bestå for det meste av HTML og CSS, med kanskje en liten del JavaScript.
